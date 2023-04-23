@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pyramid-logo-container {
+  width: 60px;
+  height: 60px;
+  background-color: #94c5ee;
+  position: relative;
+}
+
+.pyramid-logo-top {
+  width: 0;
+  position: absolute;
+  top: -84%;
+  border-bottom: 47px solid #94c5ee;
+  right: 0px;
+  border-left: 28px solid transparent;
+  border-right: 33px solid transparent;
+}
+.pyramid-logo-right {
+  position: absolute;
+  border-left: 47px solid #94c5ee;
+  border-top: 28px solid transparent;
+  border-bottom: 33px solid transparent;
+  right: -50px;
+}
+
+.pyramid-logo-bottom {
+  border-top: 47px solid #94c5ee;
+  border-left: 32px solid transparent;
+  border-right: 28px solid transparent;
+  position: absolute;
+  top: 105%;
+}
+.pyramid-logo-left {
+  border-right: 47px solid #94c5ee;
+  position: absolute;
+  border-top: 28px solid transparent;
+  border-bottom: 33px solid transparent;
+  left: -85%;
+}
